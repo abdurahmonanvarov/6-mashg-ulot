@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+  font-size: 20px;
 }
 
 .continer {
@@ -11,7 +12,7 @@
   margin: 0 auto;
 }
 
-button {
+.vidious_information #vidious_button, .main_button, .header_continer .header_links ul .header_button {
   border: none;
   width: 195px;
   height: 56px;
@@ -22,4 +23,117 @@ button {
   font-size: 18px;
   font-weight: 700px;
   line-height: 24px;
+  cursor: pointer;
+}
+
+.header {
+  padding-top: 29px;
+  padding-bottom: 29px;
+  background-color: #FFFFFF;
+}
+
+.header_continer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 315px;
+}
+.header_continer .header_image {
+  width: 149px;
+}
+.header_continer .header_links ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 42px;
+  list-style: none;
+  cursor: pointer;
+}
+.header_continer .header_links ul li {
+  font-weight: 400px;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+}
+.header_continer .header_links ul :hover {
+  color: #3EA83B;
+}
+.header_continer .header_links ul :hover {
+  color: #FFFFFF;
+  background-color: #277426;
+}
+
+.main {
+  background-image: url(../image/backround.png);
+  padding-top: 201px;
+  padding-bottom: 159px;
+  height: 762px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main_continer .main_title {
+  width: 420px;
+}
+.main_continer .main_title h2 {
+  font-weight: 500px;
+  font-size: 45px;
+  color: #363739;
+}
+.main_continer .main_title h2 span {
+  font-weight: 500px;
+  font-size: 45px;
+  color: #3EA83B;
+}
+.main_continer .main_title h1 {
+  font-weight: 700px;
+  font-size: 122px;
+  color: #3EA83B;
+}
+.main_continer .main_title p {
+  font-size: 24px;
+  color: #8C8C8C;
+  line-height: 31px;
+  margin-bottom: 24px;
+}
+
+.main_button:hover {
+  background-color: #277426;
+}
+
+.vidious__continer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 113px;
+  margin-top: 149px;
+  margin-bottom: 109px;
+}
+.vidious__continer .youtube_vidious {
+  width: 561px;
+  height: 483px;
+}
+.vidious__continer .youtube_vidious iframe {
+  border-radius: 35px;
+}
+.vidious__continer .vidious_information span {
+  color: #3EA83B;
+  font-weight: 700px;
+  font-size: 19px;
+  margin-bottom: 28px;
+}
+.vidious__continer .vidious_information h2 {
+  color: #363739;
+  font-size: 46px;
+  font-weight: 700px;
+  margin-bottom: 37px;
+}
+.vidious__continer .vidious_information p {
+  color: #363739;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+#vidious_button:hover {
+  background-color: #277426;
 }/*# sourceMappingURL=style.css.map */
