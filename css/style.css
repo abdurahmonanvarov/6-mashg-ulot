@@ -27,6 +27,9 @@
 }
 
 .header {
+  position: fixed;
+  top: 0;
+  width: 100%;
   padding-top: 29px;
   padding-bottom: 29px;
   background-color: #FFFFFF;
@@ -39,6 +42,7 @@
   gap: 315px;
 }
 .header_continer .header_image {
+  cursor: pointer;
   width: 149px;
 }
 .header_continer .header_links ul {
@@ -55,12 +59,13 @@
   line-height: 27px;
   color: #000000;
 }
-.header_continer .header_links ul :hover {
-  color: #3EA83B;
+li:hover {
+  color: #3EA83B !important;
 }
-.header_continer .header_links ul :hover {
+
+.header_button:hover {
   color: #FFFFFF;
-  background-color: #277426;
+  background-color: #195618;
 }
 
 .main {
@@ -70,6 +75,7 @@
   height: 762px;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: 120px;
 }
 
 .main_continer .main_title {
@@ -136,4 +142,80 @@
 
 #vidious_button:hover {
   background-color: #277426;
+}
+
+.desc_continer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 86px;
+}
+.desc_continer .desc_info {
+  margin-bottom: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.desc_continer .desc_info img {
+  width: 132px;
+  height: 132px;
+}
+.desc_continer .desc_info .info h3 {
+  font-size: 21px;
+  font-weight: 700px;
+  color: #363739;
+  margin-bottom: 17px;
+}
+.desc_continer .desc_info .info p {
+  color: #363739;
+  font-size: 16px;
+}
+
+.casings {
+  background-color: rgb(41, 41, 146);
+  padding-top: 116px;
+  padding-bottom: 108px;
+}
+.casings .casings_continer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.casings .casings_info {
+  width: 500px;
+}
+.casings .casings_info span {
+  color: #FFFFFF;
+  font-weight: 700px;
+  font-size: 19px;
+  margin-bottom: 12px;
+}
+.casings .casings_info h2 {
+  width: 478px !important;
+  color: #FFFFFF;
+  font-size: 46px;
+  font-weight: 700px;
+  margin-bottom: 30px;
+}
+.casings .casings_info p {
+  font-size: 18px;
+  color: #FFFFFF;
+  margin-bottom: 64px;
+}
+.casings .casings_info .casings_galich {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  margin-bottom: 17px;
+}
+
+h5 {
+  color: #FFFFFF;
+  font-weight: 700px;
+}
+
+.product_photo img {
+  width: 751px;
+  height: 583px;
 }/*# sourceMappingURL=style.css.map */
